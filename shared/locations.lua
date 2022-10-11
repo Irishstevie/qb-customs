@@ -130,7 +130,6 @@ Config.Locations = {
         },
         restrictions = { deniedClasses = { 18 } },
         zones = {
-            { coords = vector3(732.99, -1075.0, 22.17), length = 6.0, width = 4.0, heading = 180.0, minZ = 21.0, maxZ = 25.0 },
             { coords = vector3(731.47, -1088.91, 22.17), length = 6.0, width = 4.0, heading = 90.0, minZ = 21.0, maxZ = 25.0 },
         }
     },
