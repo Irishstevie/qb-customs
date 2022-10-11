@@ -95,46 +95,6 @@ Config.Locations = {
         }
     },
 
-    ['Power'] = {
-        settings = {
-            label = 'Bennys Motorworks',
-            welcomeLabel = "Welcome to Benny's Motorworks!",
-            enabled = true,
-        },
-        blip = {
-            label = 'Bennys Motorworks',
-            coords = vector3(-41.8942, -1044.1943, 28.6297),
-            sprite = 72,
-            scale = 0.65,
-            color = 0,
-            display = 4,
-            enabled = true,
-        },
-        categories = {
-            mods = true,
-            turbo = true,
-            repair = true,
-            respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
-        },
-        drawtextui = {
-            text = "Bennys Motorworks"
-        },
-        restrictions = { deniedClasses = { 18 } },
-        zones = {
-            { coords = vector3(-32.48, -1065.38, 28.4), length = 6.0, width = 4.0, heading = 340.0, minZ = 27.0, maxZ = 31.0 },
-            { coords = vector3(-38.12, -1052.85, 28.4), length = 6.0, width = 4.0, heading = 340.0, minZ = 27.0, maxZ = 31.0 },
-        }
-    },
-
     ['Popular'] = {
         settings = {
             label = 'Customs Motorworks',
@@ -215,45 +175,6 @@ Config.Locations = {
         }
     },
 
-    ['Hayes'] = {
-        settings = {
-            label = 'Hayes Motorworks',
-            welcomeLabel = "Welcome to Hayes Motorworks!",
-            enabled = true,
-        },
-        blip = {
-            label = 'Bennys Motorworks',
-            coords = vector3(-1420.1882, -441.8745, 35.9097),
-            sprite = 72,
-            scale = 0.65,
-            color = 0,
-            display = 4,
-            enabled = true,
-        },
-        categories = {
-            repair = true,
-            turbo = true,
-            respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
-        },
-        drawtextui = {
-            text = "Hayes Motorworks"
-        },
-        restrictions = { deniedClasses = { 18 } },
-        zones = {
-            { coords = vector3(-1417.12, -445.98, 35.91), length = 6.0, width = 4.0, heading = 32.0, minZ = 35.0, maxZ = 39.0 },
-            { coords = vector3(-1423.67, -450.03, 35.91), length = 6.0, width = 4.0, heading = 32.0, minZ = 35.0, maxZ = 39.0 },
-        }
-    },
-
     ['Paleto'] = {
         settings = {
             label = 'Billys Motorworks',
@@ -294,48 +215,6 @@ Config.Locations = {
         }
     },
 
-    ['Tunershop'] = {
-        settings = {
-            label = 'Tunershop',
-            welcomeLabel = "Welcome to the Tunershop!",
-            enabled = true,
-        },
-        blip = {
-            label = 'Tunershop',
-            coords = vector3(140.6093, -3030.3933, 7.0409),
-            sprite = 446,
-            scale = 0.65,
-            color = 0,
-            display = 4,
-            enabled = true,
-        },
-        categories = {
-            mods = true,
-            turbo = true,
-            repair = true,
-            respray = true,
-            liveries = true,
-            wheels = true,
-            tint = true,
-            plate = true,
-            extras = true,
-            neons = true,
-            xenons = true,
-            horn = true,
-            cosmetics = true,
-        },
-        drawtextui = {
-            text = "Tunershop",
-            icon = "material-icons",
-            materialIcon = 'construction',
-        },
-        restrictions = { deniedClasses = { 18 } },
-        zones = {
-            { coords = vector3(144.96, -3030.46, 7.06), length = 6.0, width = 4.0, heading = 180.0, minZ = 6.0, maxZ = 10.0 },
-            { coords = vector3(135.92, -3030.5, 7.04), length = 6.0, width = 4.0, heading = 180.0, minZ = 6.0, maxZ = 10.0 },
-        }
-    },
-
     ['MRPD'] = {
         settings = {
             label = 'MRPD Motorworks',
@@ -359,8 +238,8 @@ Config.Locations = {
             allowedClasses = { 18 },
         },
         zones = {
-            { coords = vector3(450.09, -975.92, 25.7), length = 9.0, width = 4.0, heading = 90.0, minZ = 24.5, maxZ = 28.5 },
-            { coords = vector3(435.53, -975.97, 25.7), length = 9.0, width = 4.0, heading = 90.0, minZ = 24.5, maxZ = 28.5 },
+            { coords = vector3(462.8, -1019.76, 27.79), length = 9.0, width = 4.0, heading = 90.89, minZ = 24.5, maxZ = 28.5 },
+            { coords = vector3(463.02, -1014.62, 27.77), length = 9.0, width = 4.0, heading = 90.4, minZ = 24.5, maxZ = 28.5 },
         }
     },
 
@@ -387,8 +266,8 @@ Config.Locations = {
             allowedClasses = { 18 },
         },
         zones = {
-            { coords = vector3(337.2, -579.6, 28.8), length = 9.4, width = 4.2, heading = 340.0, minZ = 27.5, maxZ = 31.5 },
-            { coords = vector3(340.38, -570.8, 28.8), length = 8.8, width = 4.2, heading = 340.0, minZ = 27.5, maxZ = 31.5 },
+            { coords = vector3(324.04, -541.42, 28.44), length = 9.4, width = 4.2, heading = 183.04, minZ = 27.5, maxZ = 31.5 },
+            { coords = vector3(290.21, -612.1, 43.09), length = 8.8, width = 4.2, heading = 69.79, minZ = 27.5, maxZ = 31.5 },
         }
     },
 }
